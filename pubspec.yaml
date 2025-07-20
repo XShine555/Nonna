@@ -1,0 +1,58 @@
+name: nonna
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.4.0
+  diacritic: ^0.1.6
+  font_awesome_flutter: ^10.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/nonna_img/
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/Manrope-ExtraLight.ttf
+          weight: 200
+        - asset: assets/Manrope-Light.ttf
+          weight: 300
+        - asset: assets/Manrope-Regular.ttf
+          weight: 400
+        - asset: assets/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/Manrope-Bold.ttf
+          weight: 700
+        - asset: assets/Manrope-ExtraBold.ttf
+          weight: 800
+
+    - family: Ojuju
+      fonts:
+        - asset: assets/Ojuju-Light.ttf
+          weight: 300
+        - asset: assets/Ojuju-Regular.ttf
+          weight: 400
+        - asset: assets/Ojuju-Medium.ttf
+          weight: 500
+        - asset: assets/Ojuju-SemiBold.ttf
+          weight: 600
+        - asset: assets/Ojuju-Bold.ttf
+          weight: 700
+        - asset: assets/Ojuju-ExtraBold.ttf
+          weight: 800
